@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .container {
+    width: 400px; /* Largura fixa da tabela */
+    height: 800px; /* Altura fixa da tabela */
+    align-items: center;
+
+    border: 1px transparent; /* Apenas para visualização */
+    overflow: hidden; /* Para garantir que as células não ultrapassem os limites da tabela */
+  }
+  
+  table {
+    width: 100%; /* Para garantir que a tabela ocupe toda a largura do container */
+    height: 100%; /* Para garantir que a tabela ocupe toda a altura do container */
+    border-collapse: collapse; /* Para remover espaços entre as células */
+  }
+  
+  td {
+    width: 100%; /* Para garantir que as células ocupem toda a largura da tabela */
+    height: 10%; /* 100% dividido pelo número de linhas (6) */
+    border: 1px transparent; /* Apenas para visualização */
+  }
+  .celula_peq{
+    width: 100%; text-align: center; font-size: large; height: min-content;font-weight: bold;
+  }
+  .celula_2{
+    width: 100%;text-align: center; height: min-content;
+  }
+  .alinha_centro{
+    text-align: center; height: min-content;
+    width: 100%;
+  }
+  .custom-button {
+    width: 100%; /* Largura do botão */
+    height: 100%; /* Altura do botão */
+    background-color: black; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor ao passar por cima */
+    outline: none; /* Remover contorno ao clicar */
+  }
+  .bold{
+    font-weight: bold;
+    display: flex; align-items:center; justify-content: center;
+  }

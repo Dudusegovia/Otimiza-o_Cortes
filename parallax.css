@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:black;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word ;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 900;
+    color:black;
+
+}
+.borda_texto{
+    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em; color: #fffdd9;
+    text-shadow:#000 -3px -3px
+    }
+.barra {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    position: absolute;
+    }
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+main{
+    display: block;
+    background-color: white;
+} 
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+section.module:last-child{
+    margin-bottom: 0;
+}
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+section.module.content{
+    padding: 700px ;
+    background-color: black ;
+}
+section.module.parallax{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradiente(to bottom, black 0, rgb(240, 8, 8) 40%, black 100%);
+}
+
+section.module.parallax-1{
+    background-image: url(C:\\Users\\eduar\\OneDrive\\Imagens\\wp4816761-nebula-4k-wallpapers.jpg);
+}
+section.module.parallax-2{
+    background-image: url(C:\\Users\\eduar\\OneDrive\\Imagens\\wp3198541-space-nebula-wallpapers.jpg)
+}
+section.module.parallax h1{
+    color: white;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
